@@ -16,6 +16,9 @@
   <!-- ==== WOW JS ==== -->
   <script src="assets/js/wow.min.js"></script>
   <script>
+    function handleAboutUs() {
+      window.location.href = "/about.html";
+    }
     new WOW().init();
   </script>
 </head>
@@ -44,7 +47,7 @@
                   </a>
                 </li>
                 <li class="group relative">
-                  <a href="#about"
+                  <a href="/about.html" onclick="handleAboutUs()"
                     class="ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
                     About
                   </a>
@@ -642,24 +645,50 @@
       <div class="wow fadeInUp" data-wow-delay=".2s">
         <div class="-mx-4 flex flex-wrap items-center">
           <div class="w-full px-4 lg:w-1/2">
-            <div class="mb-12 max-w-[540px] lg:mb-0 lg:px-0 px-5 ">
+            <div class="mb-12 max-w-[540px] lg:mb-0 lg:px-0 px-5">
               <h2
                 class="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
                 About Me?
               </h2>
-              <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                Expertly Crafted Components: Benefit from high-quality, professionally designed components that enhance
-                your website's functionality and aesthetic appeal.
+              <!-- <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
+                Ambitious full-stack developer, a self-led learner, and a team player.
+              </p> -->
+              <ul class="list-disc pl-5 text-base leading-relaxed text-body-color dark:text-dark-6">
+                <li>
+                  Seeking a challenging position in a leading industry that rewards excellence in teamwork and provides
+                  opportunities for skill development.
+                </li>
+                <li>
+                  Strong foundation in software development with a post-graduate degree from CDAC.
+                </li>
+                <li>
+                  Expertise in various programming languages, frameworks, and latest technologies.
+                </li>
                 <br />
+                <strong>Frontend Skills:</strong>
+                <ul class="list-disc pl-5">
+                  <li><strong>Libraries & Frameworks:</strong> React.js, Angular (Basic)</li>
+                  <li><strong>Core Web Technologies:</strong> HTML, CSS, JavaScript</li>
+                  <li><strong>CSS Frameworks:</strong> Bootstrap, Tailwind CSS</li>
+                  <li><strong>Templating Engines:</strong> EJS (Server-side rendering)</li>
+                  <li><strong>API Testing Tools:</strong> Postman, Brono</li>
+                  <li><strong>Version Control:</strong> Git</li>
+                </ul>
                 <br />
-                Comprehensive Support: Receive dedicated support to help you navigate any challenges and make the most
-                of our toolkit’s features.
-                <br>
-                <br>
-                Scalable Solutions: Build websites that grow with your business. Our toolkit is designed to scale with
-                your needs, accommodating everything from small projects to large-scale deployments.
-              </p>
+                <strong>Backend Skills:</strong>
+                <ul class="list-disc pl-5">
+                  <li><strong>Programming Language:</strong> Node.js</li>
+                </ul>
+                <br />
+                <!-- <strong>Additional Strengths:</strong> -->
+                <!-- <ul class="list-disc pl-5">
+                  <li>Comprehensive Support: Dedicated to navigating challenges and leveraging toolkit features.</li>
+                  <li>Scalable Solutions: Build websites that grow with your business, suitable for projects of all
+                    scales.</li>
+                </ul> -->
+              </ul>
             </div>
+
           </div>
 
           <div class="w-full px-4 lg:w-1/2">
@@ -679,50 +708,7 @@
   <!-- ====== About Section End -->
 
   <!-- ====== CTA Section Start -->
-  <section class="relative z-10 overflow-hidden bg-primary py-20 lg:py-[115px]">
-    <div class="container mx-auto">
-      <div class="relative overflow-hidden">
-        <div class="-mx-4 flex flex-wrap items-stretch">
-          <div class="w-full px-4">
-            <div class="mx-auto max-w-[570px] text-center">
-              <h2 class="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
-                <span>What Are You Looking For?</span>
-                <span class="text-3xl font-normal md:text-[40px]">
-                  Get Started Now
-                </span>
-              </h2>
-              <p class="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                There are many variations of passages of Lorem Ipsum but the
-                majority have suffered in some form.
-              </p>
-              <a href="javascript:void(0)"
-                class="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]">
-                Start using Play
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <span class="absolute left-0 top-0">
-        <svg width="495" height="470" viewBox="0 0 495 470" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="55" cy="442" r="138" stroke="white" stroke-opacity="0.04" stroke-width="50" />
-          <circle cx="446" r="39" stroke="white" stroke-opacity="0.04" stroke-width="20" />
-          <path d="M245.406 137.609L233.985 94.9852L276.609 106.406L245.406 137.609Z" stroke="white"
-            stroke-opacity="0.08" stroke-width="12" />
-        </svg>
-      </span>
-      <span class="absolute bottom-0 right-0">
-        <svg width="493" height="470" viewBox="0 0 493 470" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="462" cy="5" r="138" stroke="white" stroke-opacity="0.04" stroke-width="50" />
-          <circle cx="49" cy="470" r="39" stroke="white" stroke-opacity="0.04" stroke-width="20" />
-          <path d="M222.393 226.701L272.808 213.192L259.299 263.607L222.393 226.701Z" stroke="white"
-            stroke-opacity="0.06" stroke-width="13" />
-        </svg>
-      </span>
-    </div>
-  </section>
+
   <!-- ====== CTA Section End -->
 
   <!-- ====== Pricing Section Start -->
@@ -761,7 +747,7 @@
                 You Can Connect With Me At.
               </h2>
             </div>
-            <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
+            <div class="mb-12  flex flex-wrap justify-between lg:mb-0">
               <div class="mb-8 flex w-[330px] max-w-full">
                 <div class="mr-6 text-[32px] text-primary">
                   <svg width="29" height="35" viewBox="0 0 29 35" class="fill-current">
@@ -796,7 +782,9 @@
                   </p>
 
                 </div>
+
               </div>
+
 
             </div>
           </div>
