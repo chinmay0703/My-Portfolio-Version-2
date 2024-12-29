@@ -325,7 +325,7 @@
         </div>
     </div>
 
-    <div class="container mx-20 px-7 md:px-10 mt-10 relative h-full mb-[120px]  ">
+    <div class="container overflow-x-hidden mx-20 px-7 md:px-10 mt-10 relative h-full mb-[120px]  ">
         <!-- Glide.js Carousel -->
         <div class="glide">
             <div class="glide__track" data-glide-el="track">
@@ -387,230 +387,155 @@
             </div>
         </div>
     </div>
-
     <section class="pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
-        <div class="container">
-            <div class="flex flex-wrap justify-center -mx-4">
-                <div class="w-full px-4">
+        <div class="container mx-auto">
+            <!-- Section Heading -->
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-5xl">
+                    FormEazy Application Features & Resources
+                </h2>
+                <p class="mt-4 text-lg text-body-color dark:text-gray-400">
+                    A free and intuitive form builder tool with advanced features for generating React.js forms
+                    seamlessly,
+                    enabling efficient form creation and integration.
+                </p>
+            </div>
 
-                    <div class="flex flex-wrap -mx-4">
-                        <div class="w-full px-4 lg:w-8/12">
-                            <div>
-                                <h2 class="wow fadeInUp mb-8 text-2xl font-bold text-dark dark:text-white sm:text-3xl md:text-[35px] md:leading-[1.28]"
-                                    data-wow-delay=".1s
-                  ">
-                                    Key Features Of The Website
-                                </h2>
-                                <p class="mb-10 text-base wow fadeInUp text-body-color dark:text-dark-6"
-                                    data-wow-delay=".1s">
-                                <ul>
-                                    <li><b>Automatic Code Generation:</b> Easily generate React.js and React Hook Form
-                                        code by selecting input types, validations, and configurations without any
-                                        manual coding effort.</li>
-                                    <li><b>Validation Integration:</b> Seamlessly include field validations like
-                                        required fields, pattern matching, and custom rules directly in your form.</li>
-                                    <li><b>Live UI Preview:</b> Instantly preview the form UI with the selected input
-                                        fields and their respective validations, ensuring an accurate design before
-                                        implementation.</li>
-                                    <li><b>Copy-to-Clipboard Feature:</b> Generate and copy the complete React.js form
-                                        code with Hook Form integration to your clipboard with a single click for
-                                        immediate use.</li>
-                                    <li><b>Customizable Input Types:</b> Choose from a variety of input types (text,
-                                        number, dropdown, radio buttons, etc.) to build forms that suit your
-                                        requirements.</li>
-                                    <li><b>Responsive and Intuitive Design:</b> Enjoy a user-friendly interface that
-                                        works beautifully on any device, making form creation quick and easy.</li>
-                                </ul>
-                                </p>
-                                <div style="height: 50px;" class="mt-10">
-                                </div>
-                                <div class="flex flex-wrap items-center mb-12 -mx-4">
-                                    <div class="w-full px-4 md:w-1/2">
-                                        <div class="flex flex-wrap items-center gap-3 mb-8 wow fadeInUp md:mb-0"
-                                            data-wow-delay=".1s">
-                                            <a href="javascript:void(0)"
-                                                class="block rounded-md bg-primary/[0.08] px-[14px] py-[5px] text-base text-dark hover:bg-primary hover:text-white dark:text-white">
-                                                Form Builder Tool
-                                            </a>
 
-                                        </div>
-                                    </div>
-                                    <div class="w-full px-4 md:w-1/2">
-                                        <div class="flex items-center wow fadeInUp md:justify-end" data-wow-delay=".1s">
-                                            <span class="mr-5 text-sm font-medium text-body-color dark:text-dark-6">
-                                                You Can Reach Me At
-                                            </span>
-                                            <div class="flex items-center gap-[10px]">
+            <!-- Features and Resources Section -->
+            <div class="flex flex-wrap -mx-4">
+                <!-- Key Features Section -->
+                <div class="w-full px-4 lg:w-6/12">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
+                        <h3 class="text-2xl font-semibold text-dark dark:text-white mb-6">Key Features</h3>
+                        <ul class="space-y-4 text-body-color dark:text-gray-300">
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-primary text-white flex items-center justify-center rounded-full p-3">✔</span>
+                                <span><b>Automatic Code Generation:</b> Generate React.js and React Hook Form code
+                                    effortlessly by configuring input types and validations.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-primary text-white flex items-center justify-center rounded-full p-3">✔</span>
+                                <span><b>Validation Integration:</b> Add field validations like required fields, regex
+                                    patterns, and custom rules directly to your forms.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-primary text-white flex items-center justify-center rounded-full p-3">✔</span>
+                                <span><b>Live UI Preview:</b> Instantly preview your form with all input types and
+                                    validations applied.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-primary text-white flex items-center justify-center rounded-full p-3">✔</span>
+                                <span><b>Copy-to-Clipboard:</b> Quickly copy complete React.js form code with Hook Form
+                                    integration for easy use.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-primary text-white flex items-center justify-center rounded-full p-3">✔</span>
+                                <span><b>Customizable Input Types:</b> Build forms with text, numbers, dropdowns, radio
+                                    buttons, and more.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-                                                <a href="https://www.linkedin.com/in/chinmay-vyawahare-0055b81b7/"
-                                                    target="_blank">
-                                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z"
-                                                            fill="#007AB9" />
-                                                        <path
-                                                            d="M11.7836 10.1666C11.7833 10.8452 11.3716 11.4559 10.7426 11.7106C10.1137 11.9654 9.39306 11.8134 8.92059 11.3263C8.44811 10.8392 8.31813 10.1143 8.59192 9.49341C8.86572 8.87251 9.48862 8.4796 10.1669 8.49996C11.0678 8.527 11.784 9.26533 11.7836 10.1666ZM11.8336 13.0666H8.50024V23.4999H11.8336V13.0666ZM17.1003 13.0666H13.7836V23.4999H17.0669V18.0249C17.0669 14.9749 21.0419 14.6916 21.0419 18.0249V23.4999H24.3336V16.8916C24.3336 11.75 18.4503 11.9416 17.0669 14.4666L17.1003 13.0666Z"
-                                                            fill="white" />
-                                                    </svg>
-                                                </a>
-                                                <a href="mailto:chinmayvyawahare94036@gmail.com">
-                                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M2 8C2 5.79086 3.79086 4 6 4H26C28.2091 4 30 5.79086 30 8V24C30 26.2091 28.2091 28 26 28H6C3.79086 28 2 26.2091 2 24V8Z"
-                                                            fill="#007AB9" />
-                                                        <path d="M4 8L16 16L28 8H4Z" fill="white" />
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full px-4 lg:w-4/12">
-                            <div>
-                                <div class="wow fadeInUp relative mb-12 overflow-hidden rounded-[5px] bg-primary px-11 py-[60px] text-center lg:px-8"
-                                    data-wow-delay=".1s
-                ">
-                                    <h3 class="mb-[6px] text-[28px] font-semibold leading-[40px] text-white">
-                                        You Can Check Webiste Here!
-                                    </h3>
-                                    <p class="mb-5 text-base text-white">
-                                        Click Here To See Website
-                                    </p>
-                                    <form>
-                                        <a href="https://formeazy.vercel.app/" target="_blank">
-                                            <input value="Click Me"
-                                                class="mb-4 h-[50px] w-full cursor-pointer rounded-md bg-secondary text-center text-sm font-medium text-white transition duration-300 ease-in-out hover:bg-[#0BB489] hover:bg-opacity-90" />
-                                        </a>
-                                    </form>
+                <!-- Resources Section -->
+                <div class="w-full px-4 lg:w-6/12">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+                        <h3 class="text-2xl font-semibold text-dark dark:text-white mb-6">Resources Used</h3>
+                        <ul class="space-y-4 text-body-color dark:text-gray-300">
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-black text-white flex items-center justify-center rounded-full text-sm p-3">🔧</span>
+                                <span><b>Frontend:</b> React.js, HTML, CSS, Tailwind CSS for a dynamic and responsive
+                                    design.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-black text-white flex items-center justify-center rounded-full text-sm p-3">🔧</span>
+                                <span><b>Form Logic:</b> Integrated with React Hook Form for managing forms
+                                    efficiently.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-black text-white flex items-center justify-center rounded-full text-sm p-3">🔧</span>
+                                <span><b>Validation:</b> Implemented field validations using JavaScript and regex
+                                    patterns for seamless form validation.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-black text-white flex items-center justify-center rounded-full text-sm p-3">🔧</span>
+                                <span><b>Core Functionality:</b> Leveraged modern JavaScript APIs to ensure a robust
+                                    user experience.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span
+                                    class="inline-block w-6 h-6 mr-4 bg-black text-white flex items-center justify-center rounded-full text-sm p-3">🔧</span>
+                                <span><b>Deployment:</b> Hosted on Vercel for quick and reliable access.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-                                    <div>
-                                        <span class="absolute top-0 right-0">
-                                            <svg width="46" height="46" viewBox="0 0 46 46" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="1.39737" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 1.39737 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="1.39737" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 1.39737 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 13.6943 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 13.6943 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 25.9911 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 25.9911 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 38.288 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 38.288 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="1.39737" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 1.39737 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 13.6943 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 25.9911 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 38.288 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="1.39737" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 1.39737 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 13.6943 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 25.9911 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 38.288 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                            </svg>
-                                        </span>
-                                        <span class="absolute bottom-0 left-0">
-                                            <svg width="46" height="46" viewBox="0 0 46 46" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="1.39737" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 1.39737 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="1.39737" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 1.39737 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 13.6943 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 13.6943 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 25.9911 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 25.9911 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="44.6026" r="1.39737"
-                                                    transform="rotate(-90 38.288 44.6026)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="7.9913" r="1.39737"
-                                                    transform="rotate(-90 38.288 7.9913)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="1.39737" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 1.39737 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 13.6943 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 25.9911 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="32.3058" r="1.39737"
-                                                    transform="rotate(-90 38.288 32.3058)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="1.39737" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 1.39737 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="13.6943" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 13.6943 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="25.9911" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 25.9911 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                                <circle cx="38.288" cy="20.0086" r="1.39737"
-                                                    transform="rotate(-90 38.288 20.0086)" fill="white"
-                                                    fill-opacity="0.44" />
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
+        </div>
+    </section>
+
+
+    <section class="relative z-10 overflow-hidden bg-primary py-10 lg:py-[100px]">
+        <div class="container mx-auto">
+            <div class="relative overflow-hidden">
+                <div class="flex flex-wrap items-stretch -mx-4">
+                    <div class="w-full px-4">
+                        <div class="mx-auto max-w-[570px] text-center">
+                            <h2 class="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
+                                <span>You can check live website </span>
+                            </h2>
+                            <p class="mb-5 text-base text-white">
+                                Click Here To See Website
+                            </p>
+                            </p>
+
+                            <a href="https://formeazy.vercel.app/"
+                                class="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]">
+                                Click Me
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div>
+            <span class="absolute top-0 left-0">
+                <svg width="495" height="470" viewBox="0 0 495 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="55" cy="442" r="138" stroke="white" stroke-opacity="0.04" stroke-width="50" />
+                    <circle cx="446" r="39" stroke="white" stroke-opacity="0.04" stroke-width="20" />
+                    <path d="M245.406 137.609L233.985 94.9852L276.609 106.406L245.406 137.609Z" stroke="white"
+                        stroke-opacity="0.08" stroke-width="12" />
+                </svg>
+            </span>
+            <span class="absolute bottom-0 right-0">
+                <svg width="493" height="470" viewBox="0 0 493 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="462" cy="5" r="138" stroke="white" stroke-opacity="0.04" stroke-width="50" />
+                    <circle cx="49" cy="470" r="39" stroke="white" stroke-opacity="0.04" stroke-width="20" />
+                    <path d="M222.393 226.701L272.808 213.192L259.299 263.607L222.393 226.701Z" stroke="white"
+                        stroke-opacity="0.06" stroke-width="13" />
+                </svg>
+            </span>
+        </div>
     </section>
-    <!-- ====== Blog Details Section End -->
-    <section id="contact" class="relative py-20 md:py-[120px]">
+
+    <section id="contact" class="relative  md:py-[120px] ">
         <div class="absolute left-0 top-0 -z-[1] h-full w-full dark:bg-dark"></div>
         <div class="absolute left-0 top-0 -z-[1] h-1/2 w-full bg-[#E9F9FF] dark:bg-dark-700 lg:h-[45%] xl:h-1/2"></div>
         <div class="container px-4">
             <div class="-mx-4 flex flex-wrap items-center">
                 <div class="w-full px-4 lg:w-7/12 xl:w-8/12">
-                    <div class="ud-contact-content-wrapper">
+                    <div class="ud-contact-content-wrapper my-10">
                         <div class="ud-contact-title mb-12 lg:mb-[150px]">
                             <span class="mb-6 block text-base font-medium text-dark dark:text-white">
                                 CONTACT ME
@@ -661,7 +586,6 @@
             </div>
         </div>
     </section>
-
     <!-- ====== Footer Section Start -->
     <footer class="wow fadeInUp relative z-10 bg-[#090E34]  " data-wow-delay=".15s">
         <div class="border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]">
